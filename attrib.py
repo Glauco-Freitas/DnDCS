@@ -1,5 +1,4 @@
 class Attrib:
-
     def __init__(self, str, dex, con, wis, int, cha):
         self.__str = str
         self.__dex = dex
