@@ -42,7 +42,7 @@ class Attrib:
         self.__modcha = mod[5]
 
     @property
-    def str (self):
+    def str(self):
         return self.__str
 
     @property
