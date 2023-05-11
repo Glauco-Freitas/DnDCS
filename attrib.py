@@ -40,3 +40,52 @@ class Attrib:
         self.__modwis = mod[3]
         self.__modint = mod[4]
         self.__modcha = mod[5]
+
+    @property
+    def str (self):
+        return self.__str
+
+    @property
+    def dex(self):
+        return self.__dex
+
+    @property
+    def con(self):
+        return self.__con
+
+    @property
+    def wis(self):
+        return self.__wis
+
+    @property
+    def int(self):
+        return self.__int
+
+    @property
+    def cha(self):
+        return self.__cha
+
+
+    @str.setter
+    def str(self, str):
+        self.__str = str
+
+    @dex.setter
+    def dex(self, dex):
+        self.__dex = dex
+
+    @con.setter
+    def con(self, con):
+        self.__con = con
+
+    @wis.setter
+    def wis(self, wis):
+        self.__wis = wis
+
+    @int.setter
+    def int(self, int):
+        self.__int = int
+
+    @cha.setter
+    def cha(self, cha):
+        self.__cha = cha
